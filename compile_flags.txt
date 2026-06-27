@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/Users/finn/dev/tiny_raycasting/main.cpp",
+  "command": "/usr/bin/c++    -arch arm64 -o CMakeFiles/main.dir/main.cpp.o -c /Users/finn/dev/tiny_raycasting/main.cpp",
+  "file": "/Users/finn/dev/tiny_raycasting/main.cpp",
+  "output": "CMakeFiles/main.dir/main.cpp.o"
+}
+]
