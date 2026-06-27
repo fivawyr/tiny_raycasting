@@ -27,7 +27,7 @@ clang code.c -I/opt/homebrew/include -L/opt/homebrew/lib -lraylib -lm -g -o shap
 ![Demo](resources/demo.png)
 > Screenshot from the application 
 ### Resources 
-- [Raylib Cheatsheet](https://www.raylib.com/cheatsheet/cheatsheet.html)
-- [Raylib GitHub](https://github.com/raysan5/raylib)
-- [GreeksForGreek](https://www.geeksforgeeks.org/c/dynamic-memory-allocation-in-c-using-malloc-calloc-free-and-realloc/)
-- I used the header file alot for checking parameters/types etc., you can find the file `cd /usr/include` or `echo | clang -E -Wp,-v -`
+- [Lode's Computer Graphics Tutorial](https://lodev.org/cgtutor/raycasting.html)
+- [Black Book DOOM](https://fabiensanglard.net/b/gebbdoom.pdf)
+- [ID Software](https://github.com/id-software/doom?tab=readme-ov-file)
+

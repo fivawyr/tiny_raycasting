@@ -47,5 +47,5 @@ void R_ExecuteSetViewSize (void) {
 }
 
 ```
-- 
-
+### Raycasting
+- The principle of raycasting uses the PROJECTION DISTANCE for calculating the distance and the height/size of elements 
