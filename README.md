@@ -8,21 +8,15 @@
 
 ### Install & run
 ```bash
-brew install raylib
-gcc main.c -o shapes -lraylib -lm
+brew install SDL2
 ```
-```bash
-git clone https://github.com/raysan5/raylib.git
-cd raylib/src
-make PLATFORM=PLATFORM_DESKTOP
-sudo make install
-```
+### Compile & run it
 ```bash
 git clone https://github.com/fivawyr/tiny_circles.git
-cd # where ever you clone this repo
-clang code.c -I/opt/homebrew/include -L/opt/homebrew/lib -lraylib -lm -g -o shapes 
+cd in your folder
+g++ -Wall -o game main.cpp $(sdl2-config --cflags --libs)
 # Run it
-./shapes
+./game
 ```
 ![Demo](resources/demo.png)
 > Screenshot from the application 
