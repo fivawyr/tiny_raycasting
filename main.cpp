@@ -55,8 +55,10 @@ void DrawPlayer(SDL_Surface *psurface, Player player){
 void DrawWall(SDL_Surface *psurface) {
 }
 
-void ShootRay(Player player, ){
+void ShootRay(i32 w{0}, {
+    for (i32 x = 0; x < w; x++) {
 
+    }
 }
 
 void ProjectionVector(Player player, double angle) {
@@ -65,14 +67,20 @@ void ProjectionVector(Player player, double angle) {
 
 void DrawGrid(SDL_Surface *psurface) {
 
-}
+};
+
+f32 pos_player_x = 10;
+f32 pos_player_y = 12;
+f32 dir_player_x = -1;
+f32 dir_player_y = 0;
+f32 planeX = 0;
+f32 planeY = 0.66;
+f32 newTime = 0;
+f32 oldTime = 0;
+
 
 int main(int argc, char* argv[]) {
     cout << "Hello DOOM Raycasting" << "\n"; 
-    f32 pos_player_x = 10;
-    f32 pos_player_y = 12;
-    f32 dir_player_x = -1;
-    f32 dir_player_y = 0
 
     SDL_Init(SDL_INIT_VIDEO); 
     SDL_Window *pwindow = SDL_CreateWindow(
